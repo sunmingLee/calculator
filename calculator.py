@@ -1,7 +1,11 @@
+
 a = int(input())
-b = int(input ())
+b = int(input())
+
+def subtract(a, b):
+  return a-b
 
 def multi(a, b):
     return a*b
 
-print(multi(a, b))
+multi(a, b)
