@@ -1,8 +1,7 @@
-a = input()
-b = input ()
-
-
-print(a + b)
+a = int(input())
+b = int(input ())
 
 def multi(a, b):
-    return print(a*b);
+    return a*b
+
+print(multi(a, b))
