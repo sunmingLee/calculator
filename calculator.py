@@ -1,5 +1,7 @@
 a = input()
-b = input ()
+b = input()
+
+def subtract(a, b):
+  return a-b
 
 
-print(a + b)
